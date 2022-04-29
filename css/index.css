@@ -129,7 +129,7 @@ nav ul li:hover {
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 55%;
     height: 300px;
     background-color: white;
     box-shadow: 5px 5px 5px 0px #770d398b;
@@ -180,7 +180,7 @@ nav ul li:hover {
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 55%;
     height: 300px;
     background-color: white;
     box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.625);
@@ -195,7 +195,7 @@ nav ul li:hover {
     height: 100%;
     font-size: 20px;
     margin-top: 30px;
-    margin-left: 25px;
+    margin-left: 40px;
     font-weight: bold;
     float: left;
 }
@@ -228,7 +228,7 @@ nav ul li:hover {
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 55%;
     height: 300px;
     background-color: white;
     box-shadow: 5px 5px 5px 0px #770d398b;
