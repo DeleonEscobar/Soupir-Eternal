@@ -163,13 +163,14 @@ nav ul li:hover {
 }
 
 
-.imagen-vino{
+.imagen-vino1{
     width: 40%;
     padding: 10px;
     margin: 15px;
+    margin-left: 80px;
 }
 
-.imagen-vino img{
+.imagen-vino1 img{
     height: 100%;
     border-radius: 15px;
 }
@@ -209,6 +210,17 @@ nav ul li:hover {
 .container2-text p{
     font-family: 'Inter', sans-serif;
     line-height: 30px;
+}
+
+.imagen-vino2{
+    width: 40%;
+    padding: 10px;
+    margin: 15px;
+}
+
+.imagen-vino2 img{
+    height: 100%;
+    border-radius: 15px;
 }
 
 .container3{
@@ -258,4 +270,16 @@ nav ul li:hover {
 .container3-text p{
     font-family: 'Inter', sans-serif;
     line-height: 30px;
+}
+
+.imagen-vino3{
+    width: 40%;
+    padding: 10px;
+    margin: 15px;
+    margin-left: 80px;
+}
+
+.imagen-vino3 img{
+    height: 100%;
+    border-radius: 15px;
 }
