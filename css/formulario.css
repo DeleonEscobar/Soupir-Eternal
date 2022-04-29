@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgb(0, 0, 0)), url("../Imagenes/fondoFormulario.jpg");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+/*MENU*/
+
+header img{
+    width: 15%;
+    height: 85px;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+header{
+    
+    padding: 10px;
+}
+
+nav{
+    float: right;
+    padding-right: 1%;
+}
+
+nav ul{ /*Quitamos los puntitos de las listas no ordenadas*/
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+nav ul li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none; /*Quitamos las lineas azules de cada palabra (links)*/
+}
+
+nav ul li:hover { 
+    background-color: rgba(255, 255, 255, 0.078);
+    border-radius: 15px;
+}
+
+/*FORMULARIO*/
+
+div.formulario{
+    background-color: rgba(128, 128, 128, 0.589);
+    width: 28%;
+    margin: auto;
+    font-size: 20px;
+    box-shadow: 20px 20px 20px;
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+form{
+    color: white;
+    padding-bottom: 10px;
+    padding: 20px;
+}
+
+.formulario h1{
+    /*text-shadow: 0 0 10px #770D39;*/
+    text-shadow: 5px 5px 1px  #770D39;
+    font-size: 50px;
+    padding-bottom: 5px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Roman SD', sans-serif;
+    margin-bottom: 30px;
+}
+
+input{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+label{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+input button{
+    margin-bottom: 10px;
+}
+
+.controlls{
+    width: 90%;
+    height: 30px;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 3px;
+}
+
+.controlls:hover{
+    background: #CCD1D1;
+    box-shadow: 10px 10px 1px 0px #770D39;
+}
+
+.botons{
+    background-color: #770D39;
+    width: 20%;
+    height: 35px;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 10px ;
+    margin-top: 3%;
+    margin-left: 20%;
+    font-weight: bold;
+    color: white;
+}
+
+.botones{
+    margin-left: 5%;
+}
+
+.botons:hover{
+    background-color: #770d3983;
+    color: white;
+}
+
+.formulario p{
+    padding-top: 20px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.formulario p a{
+    color: #770D39;
+    font-weight: bold;
+}
