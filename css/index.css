@@ -23,7 +23,6 @@
     }
 
     header{
-        
         padding: 10px;
     }
 
@@ -74,7 +73,7 @@
         margin-top: 1%;
         width: 65%;
         margin-left: 150px;
-        background-color: aqua;
+        border-radius: 30px;
     }
 
     .text{
