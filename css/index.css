@@ -7,62 +7,64 @@
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgb(0, 0, 0)), url("../Imagenes/fondoFormulario.jpg");
     background-repeat: repeat-x;
     background-attachment: fixed;
 }
 
-    /*MENU*/
+/*MENU*/
 
-header img{
+header img {
     width: 15%;
     height: 85px;
     padding-left: 2%;
     padding-top: 1%;
 }
 
-header{
+header {
     padding: 10px;
 }
 
-nav{
+nav {
     float: right;
     padding-right: 1%;
 }
 
-nav ul{ /*Quitamos los puntitos de las listas no ordenadas*/
+nav ul {
+    /*Quitamos los puntitos de las listas no ordenadas*/
     list-style: none;
     overflow: hidden;
 }
 
-nav ul li{
+nav ul li {
     float: left;
     font-size: 20px;
     margin-top: 3%;
 }
 
-nav ul li a{
+nav ul li a {
     display: block;
     padding: 15px;
     color: white;
-    text-decoration: none; /*Quitamos las lineas azules de cada palabra (links)*/
+    text-decoration: none;
+    /*Quitamos las lineas azules de cada palabra (links)*/
 }
 
-nav ul li:hover { 
+nav ul li:hover {
     background-color: rgba(255, 255, 255, 0.078);
     border-radius: 15px;
 }
 
-    /*INICIO*/
+/*INICIO*/
 
-.box-caja{
-    display: flex;    
+.box-caja {
+    display: flex;
     padding-top: 1%;
 }
-   
-.caja1{ 
+
+.caja1 {
     width: 25%;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
@@ -70,25 +72,25 @@ nav ul li:hover {
     margin-left: 15%;
 }
 
-.caja2 img{
+.caja2 img {
     margin-top: 1%;
     width: 65%;
     margin-left: 150px;
     border-radius: 20px;
 }
 
-.text{
+.text {
     width: 35%;
     margin-left: 15%;
     margin-top: 2%;
 }
 
-.text p{
+.text p {
     color: white;
     font-size: 20px;
 }
 
-.text input{
+.text input {
     font-size: 15px;
     width: 20%;
     margin-top: 5%;
@@ -99,32 +101,33 @@ nav ul li:hover {
     cursor: pointer;
 }
 
-.boton{
-    background-color:#770D39;
+.boton {
+    background-color: #770D39;
     color: white;
-       
+
 }
 
-.boton:hover{
+.boton:hover {
     background-color: #770d39b0;
 }
 
-.boton2{
+.boton2 {
     background-color: white;
     color: black;
 }
 
-.boton2:hover{
+.boton2:hover {
     background-color: rgba(255, 255, 255, 0.656);
 }
 
-.fondo-blanco{
+.fondo-blanco {
     background-color: #E5E8E8;
     height: 1300px;
     padding-top: 1%;
     margin-top: 15%;
 }
-.container1{
+
+.container1 {
     padding: 10px;
     margin-top: 5%;
     margin-left: auto;
@@ -134,11 +137,12 @@ nav ul li:hover {
     background-color: white;
     box-shadow: 5px 5px 5px 0px #770d398b;
     border-radius: 10px;
-    display: flex;  /*DIV DE LA IMAGEN ALAPAR*/
-        /*justify-content: space-around;*/
+    display: flex;
+    /*DIV DE LA IMAGEN ALAPAR*/
+    /*justify-content: space-around;*/
 }
 
-.container1-text{
+.container1-text {
     font-family: 'Poppins', sans-serif;
     display: inline;
     width: 40%;
@@ -150,32 +154,32 @@ nav ul li:hover {
     float: left;
 }
 
-.container1-text h2{
+.container1-text h2 {
     font-size: 35px;
     font-weight: 900;
     text-align: center;
     margin-bottom: 15px;
 }
 
-.container1-text p{
+.container1-text p {
     font-family: 'Inter', sans-serif;
     line-height: 30px;
 }
 
 
-.imagen-vino1{
+.imagen-vino1 {
     width: 40%;
     padding: 10px;
     margin: 15px;
     margin-left: 80px;
 }
 
-.imagen-vino1 img{
+.imagen-vino1 img {
     height: 100%;
     border-radius: 15px;
 }
 
-.container2{
+.container2 {
     padding: 10px;
     margin-top: 5%;
     margin-left: auto;
@@ -188,7 +192,7 @@ nav ul li:hover {
     display: flex;
 }
 
-.container2-text{
+.container2-text {
     font-family: 'Poppins', sans-serif;
     display: inline;
     width: 40%;
@@ -200,30 +204,30 @@ nav ul li:hover {
     float: left;
 }
 
-.container2-text h2{
+.container2-text h2 {
     font-size: 35px;
     font-weight: 900;
     text-align: center;
     margin-bottom: 15px;
 }
 
-.container2-text p{
+.container2-text p {
     font-family: 'Inter', sans-serif;
     line-height: 30px;
 }
 
-.imagen-vino2{
+.imagen-vino2 {
     width: 40%;
     padding: 10px;
     margin: 15px;
 }
 
-.imagen-vino2 img{
+.imagen-vino2 img {
     height: 100%;
     border-radius: 15px;
 }
 
-.container3{
+.container3 {
     padding: 10px;
     margin-top: 5%;
     margin-left: auto;
@@ -233,10 +237,11 @@ nav ul li:hover {
     background-color: white;
     box-shadow: 5px 5px 5px 0px #770d398b;
     border-radius: 10px;
-    display: flex; /*los div de adentro salgan alapar*/
+    display: flex;
+    /*los div de adentro salgan alapar*/
 }
 
-.container3-text{
+.container3-text {
     font-family: 'Poppins', sans-serif;
     display: inline;
     width: 40%;
@@ -248,51 +253,51 @@ nav ul li:hover {
     float: left;
 }
 
-.container3-text h2{
+.container3-text h2 {
     font-size: 35px;
     font-weight: 900;
     text-align: center;
     margin-bottom: 15px;
 }
 
-.container3-text p{
+.container3-text p {
     font-family: 'Inter', sans-serif;
     line-height: 30px;
 }
 
-.container3-text h2{
+.container3-text h2 {
     font-size: 35px;
     font-weight: 900;
     text-align: center;
     margin-bottom: 15px;
 }
 
-.container3-text p{
+.container3-text p {
     font-family: 'Inter', sans-serif;
     line-height: 30px;
 }
 
-.imagen-vino3{
+.imagen-vino3 {
     width: 40%;
     padding: 10px;
     margin: 15px;
     margin-left: 80px;
 }
 
-.imagen-vino3 img{
+.imagen-vino3 img {
     height: 100%;
     border-radius: 15px;
 }
 
- /*Footer*/
+/*Footer*/
 
-hr{
+hr {
     margin: auto;
     border: 5px solid;
     color: #770D39;
 }
 
-.footer{
+.footer {
     padding: 30px;
     height: 230px;
     background-color: rgba(128, 128, 128, 0.452);
@@ -301,78 +306,196 @@ hr{
     color: white;
 }
 
-.footer-1{
+.footer-1 {
     width: 25%;
     height: 230px;
     position: relative;
 }
 
-.footer-1-text{
+.footer-1-text {
     position: absolute;
     top: 20%;
     left: 15%;
 }
 
-.footer-1-text h2{
+.footer-1-text h2 {
     font-family: 'Roman SD', sans-serif;
     font-size: 25px;
     padding-bottom: 15px;
 }
 
-.footer-1-text p{
+.footer-1-text p {
     font-size: 20px;
     font-weight: bold;
 }
 
-.footer-2{
+.footer-2 {
     width: 25%;
     height: 230px;
     position: relative;
 }
-.footer-2-text{
+
+.footer-2-text {
     position: absolute;
     top: 15%;
     left: 15%;
 }
 
-.footer-2-text p{
+.footer-2-text p {
     font-size: 20px;
     padding-top: 10px;
     font-weight: bold;
 }
 
-.footer-3{
+.footer-3 {
     width: 25%;
     height: 230px;
     position: relative;
 }
 
-.footer-3-text{
+.footer-3-text {
     position: absolute;
     top: 15%;
     left: 15%;
 }
 
-.footer-3-text p{
+.footer-3-text p {
     font-size: 20px;
     padding: 10px;
     font-weight: bold;
 }
 
-.footer-4{
+.footer-4 {
     width: 25%;
     height: 230px;
     position: relative;
 }
 
-.footer-4-text{
+.footer-4-text {
     position: absolute;
     top: 15%;
     left: 15%;
 }
 
-.footer-4-text p{
+.footer-4-text p {
     font-size: 20px;
     padding: 10px;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    header img {
+        width: 42%;
+        height: auto;
+        padding-left: 2%;
+        padding-top: 1%;
+    }
+
+    nav ul {
+        margin-bottom: 6%;
+    }
+
+    .box-caja {
+        display: block;
+        padding: 0 10%;
+    }
+
+    .caja1 {
+        width: 100%;
+        margin: auto !important;
+        font-size: 50px;
+        line-height: 1.2;
+    }
+
+    .caja2 {
+        margin-top: 7%;
+    }
+
+    .caja2 img {
+        margin: auto !important;
+        width: 100%;
+        height: auto;
+    }
+
+    .text input {
+        width: 37%;
+    }
+
+    .text {
+        padding: 0 10% !important;
+        margin: auto !important;
+        width: 71%;
+
+    }
+
+    .container1-text,
+    .container2-text,
+    .container3-text {
+        width: 100%;
+        margin: auto !important;
+    }
+
+
+    .container1-text p,
+    .container2-text p,
+    .container3-text p {
+        margin-bottom: 16%;
+    }
+
+    .container2 {
+        display: flex;
+        height: auto;
+        flex-direction: column-reverse;
+        width: 63%;
+        padding: 9%;
+    }
+
+    .container1,
+    .container3 {
+        display: block;
+        height: auto;
+        width: 63%;
+        padding: 9%;
+    }
+
+    .fondo-blanco img {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagen-vino1,
+    .imagen-vino2,
+    .imagen-vino3 {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+
+    }
+
+    .fondo-blanco {
+        height: auto;
+        padding-bottom: 15%;
+    }
+
+    .footer-1-text,
+    .footer-2-text,
+    .footer-3-text,
+    .footer-4-text {
+        position: unset;
+    }
+
+    .footer {
+        display: block;
+        height: auto;
+    }
+
+    .footer-1,
+    .footer-2,
+    .footer-3,
+    .footer-4 {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-bottom: 11% !important;
+    }
 }
