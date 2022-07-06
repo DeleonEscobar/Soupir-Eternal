@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header img {
     width: 15%;
     height: 85px;
@@ -15,7 +20,6 @@ nav {
 }
 
 nav ul {
-    /*Quitamos los puntitos de las listas no ordenadas*/
     list-style: none;
     overflow: hidden;
 }
@@ -31,7 +35,6 @@ nav ul li a {
     padding: 15px;
     color: white;
     text-decoration: none;
-    /*Quitamos las lineas azules de cada palabra (links)*/
 }
 
 nav ul li:hover {
