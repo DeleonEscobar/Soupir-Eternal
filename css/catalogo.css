@@ -22,8 +22,8 @@ body {
 
 header img {
     margin: 0;
-    width: 35%;
-    height: 35%;
+    width: 20%;
+    height: 20%;
     padding: 1% 1%;
 }
 
@@ -31,19 +31,24 @@ header {
     margin: 0;
     padding: 5px 10px;
     background-color: #770D39;
-    
+    justify-content: space-between;
 }
 
-header .arriba{
+nav {
+    float: right;
+    padding-right: 1%;
+}
+/*header .arriba{
     display: flex;
     flex-direction: column ;
     text-align: center;
-}
+}*/
 
-header nav {
+/*header nav {
     display: flex;
-    /*flex-direction: column; */   
-}
+    flex-direction: column;    
+}*/
+
 header a{
     padding: 5px 12px;
     color: white;
@@ -58,7 +63,7 @@ nav ul {
 }
 
 nav ul li {
-    float: right;
+    float: left;
     font-size: 20px;
     margin-top: 3%;
 }
@@ -92,7 +97,17 @@ button:hover{
 .alcoholicas{
     max-width: 1200px;
     margin: auto;
+    flex-direction: column;
+    display: flex;
 }
+
 .titulo{
     text-align: center;
 }
+
+.alcoholicas img{
+    padding: 20px;
+    width: 125px;
+    height: 135px;    
+}
+
