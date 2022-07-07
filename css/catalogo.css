@@ -94,6 +94,10 @@ button:hover{
     background-color: gray;
 }
 
+#pro-alcohol div{
+    width: max-content;
+}
+
 .alcoholicas{
     max-width: 1200px;
     margin: auto;
@@ -111,3 +115,95 @@ button:hover{
     height: 135px;    
 }
 
+hr {
+    margin: auto;
+    border: 5px solid;
+    color: #770D39;
+}
+
+.footer {
+    
+   
+    height: 310px;
+    background-color: rgba(128, 128, 128, 0.452);
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    color: black;
+}
+
+.footer-1 {
+    width: 25%;
+    height: 230px;
+    position: relative;
+}
+
+.footer-1-text {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.footer-1-text h2 {
+    font-family: 'Roman SD', sans-serif;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.footer-1-text p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-2 {
+    width: 25%;
+    height: 230px;
+    position: relative;
+}
+
+.footer-2-text {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+.footer-2-text p {
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.footer-3 {
+    width: 25%;
+    height: 230px;
+    position: relative;
+}
+
+.footer-3-text {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+.footer-3-text p {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.footer-4 {
+    width: 25%;
+    height: 230px;
+    position: relative;
+}
+
+.footer-4-text {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+.footer-4-text p {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
