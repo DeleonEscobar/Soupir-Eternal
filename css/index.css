@@ -65,8 +65,10 @@ nav ul li:hover {
 }
 
 .caja1 {
+    letter-spacing: 4px;
+    margin-top: 15%;
     width: 25%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
     font-weight: 900;
     font-size: 60px;
     margin-left: 15%;
