@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgb(0, 0, 0)), url("Imagenes/fondoFormularioBlur.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+nav{
+    position:fixed;
+}
+
+.navbar-nav{
+    padding: 25px;
+}
+
+.nav-item{
+    padding-right: 13px;
+}
+
+@media (max-width: 400px) {
+    .navbar-brand, img {
+      width: 200px;
+      padding-top: 2%;
+    }
+
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+.contenedorIndex1{
+    padding-top: 3%;
+}
+
+.textoIndex1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.col-md-6 .text-center .imagenVino{
+    border-radius: 50%;
+}
+
+.imagenVino{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 40%;
+    background-size: 100% auto;
+    padding-top: 2%;
+}
+
+.textoInicio{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    padding-top: 2%;
+}
+
+.inputsRegistro{
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.inputsRegistro input{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 25px;
+}
+
+.boton{
+    background-color:#770D39;
+    color: white;
+}
+
+.boton:hover{
+    background-color: #770d39b0;
+}
+
+.boton2{
+    background-color: white;
+    color: black;
+}
+
+.boton2:hover{
+    background-color: rgba(255, 255, 255, 0.656);
+}
