@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -55,6 +56,7 @@ nav ul li a {
 nav ul li:hover {
     background-color: rgba(255, 255, 255, 0.078);
     border-radius: 15px;
+    transition: 0.3s;
 }
 
 /*INICIO*/
@@ -65,10 +67,8 @@ nav ul li:hover {
 }
 
 .caja1 {
-    letter-spacing: 4px;
-    margin-top: 15%;
     width: 25%;
-    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: 60px;
     margin-left: 15%;
@@ -107,10 +107,17 @@ nav ul li:hover {
     background-color: #770D39;
     color: white;
 
+
+}
+
+.slogan1{
+    font-family: 'PT Serif', serif;
+   max-width: length;
+   text-transform: uppercase;
 }
 
 .boton:hover {
-    background-color: #770d39b0;
+    background-color: #630C30;
 }
 
 .boton2 {
@@ -291,7 +298,7 @@ nav ul li:hover {
     border-radius: 15px;
 }
 
-/*Footer*/
+/*--------------------------------- Footer ---------------------------------*/
 
 hr {
     margin: auto;
@@ -385,13 +392,158 @@ hr {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+
+    header img {
+        width: 20%;
+        height: auto;
+        padding-left: 2%;
+        padding-top: 1%;
+    }
+
+    .imagen-vino1,
+    .imagen-vino3, img {
+        width: 100%;
+    }
+
+    .imagen-vino2 img {
+        width: 100%;
+    }
+
+    .container1,
+    .container2,
+    .container3 {
+        width: 60%;
+        height: 300px;
+    }
+
+    .container1-text,
+    .container3-text {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .container2-text {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .container1-text h2,
+    .container2-text h2 {
+        margin-bottom: 0px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+
+    header img {
+        width: 20%;
+        height: auto;
+        padding-left: 2%;
+        padding-top: 1%;
+    }
+
+    nav ul {
+        margin-bottom: 6%;
+    }
+
+    .box-caja {
+        display: block;
+        padding: 0 10%;
+    }
+
+    .caja1 {
+        width: 100%;
+        margin: auto !important;
+        font-size: 50px;
+        line-height: 1.2;
+    }
+
+    .caja2 {
+        margin-top: 7%;
+    }
+
+    .caja2 img {
+        margin: auto !important;
+        width: 100%;
+        height: auto;
+    }
+
+    .text input {
+        width: 37%;
+    }
+
+    .text {
+        padding: 0 10% !important;
+        margin: auto !important;
+        width: 71%;
+
+    }
+
+    .imagen-vino1,
+    .imagen-vino3, img {
+        width: 110%;
+        margin-left: 0px;
+        margin-right: 30px;
+        height: 300px;
+    }
+
+    .imagen-vino2 img {
+        width: 115%;
+    }
+
+    .container1,
+    .container2,
+    .container3 {
+        width: 80%;
+        height: 350px;
+    }
+
+    .container1-text,
+    .container3-text {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .container1-text h2 {
+        line-height: 35px;
+        padding-bottom: 10px;
+    }
+
+    .container1-text p {
+        line-height: 25px;
+    }
+
+    .container2-text {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    .container1-text h2,
+    .container2-text h2 {
+        margin-bottom: 0px;
+    }
+
+    .container2-text p {
+        line-height: 30px;
+    }
+
+}
+
+
+/*------------------------------- Telefono -------------------------------*/
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+
+
     header img {
         width: 42%;
         height: auto;
         padding-left: 2%;
         padding-top: 1%;
     }
+
 
     nav ul {
         margin-bottom: 6%;
