@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soupir Eternel</title>
+    <link rel="icon" href="{{asset('/asset/img/Icono.ico') }}">
+    <link rel="stylesheet" type="text/css" href="register1.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+    <div class="container" id="main">
+        <div class="sign-up">
+            <form action="#">
+                <h1>Registrarse</h1>
+                <input type="text" name="txt" placeholder="Nombre y Apellido" required="">
+                <input type="email" name="email" placeholder="Correo" required="">
+                <input type="password" name="pswd" placeholder="Contraseña" required="">
+                <button>Enviar</button>
+            </form>
+        </div>
+        <div class="sign-in">
+            <form action="#">
+                <h1>Iniciar Sesión</h1>
+                <input type="email" name="email" placeholder="Correo" required="">
+                <input type="password" name="pswd" placeholder="Contraseña" required="">
+                <button>Enviar</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-left">
+                    <h1>Tienes una cuenta?</h1>
+                    <img class="image-container" src="img/register.svg" alt="login" width="55%">
+                    <p>Entonces deberias Iniciar Sesión</p>
+                    <button id="signIn">Iniciar Sesión</button>
+                </div>
+                <div class="overlay-right">
+                    <h1>Sin cuenta?</h1>
+                    <img class="image-container" src="img/login.svg" alt="login" width="55%">
+                    <p>Registrate y crea una cuenta para disfrutar de nuestro servicio</p>
+                    <button id="signUp">Registrarse</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        const signUpButton = document.getElementById('signUp');
+        const signInButton = document.getElementById('signIn');
+        const main = document.getElementById('main');
+
+        signUpButton.addEventListener('click', () => {
+            main.classList.add("right-panel-active");
+        });
+
+        signInButton.addEventListener('click', () => {
+            main.classList.remove("right-panel-active");
+        });
+    </script>
+</body>
+</html>
