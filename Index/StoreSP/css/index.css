@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgb(0, 0, 0)), url("../Imagenes/fondoFormularioBlur.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+nav{
+    position:fixed;
+}
+
+.navbar-nav{
+    padding: 25px;
+}
+
+.nav-item{
+    padding-right: 13px;
+}
+
+@media (max-width: 400px) {
+    .navbar-brand, img {
+      width: 200px;
+      padding-top: 2%;
+    }
+
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+
+.contenedorIndex1{
+    padding-top: 3%;
+}
+
+.textoIndex1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.col-md-6 .text-center .imagenVino{
+    border-radius: 50%;
+}
+
+.imagenVino{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 40%;
+    background-size: 100% auto;
+    padding-top: 2%;
+}
+
+.textoInicio{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    padding-top: 2%;
+}
+
+.inputsRegistro{
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.inputsRegistro input{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 25px;
+}
+
+.boton{
+    background-color:#770D39;
+    color: white;
+}
+
+.boton:hover{
+    background-color: #770d39b0;
+}
+
+.boton2{
+    background-color: white;
+    color: black;
+}
+
+.boton2:hover{
+    background-color: rgba(255, 255, 255, 0.656);
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+.contenedorIndex2{
+    margin-top: 8%;
+}
+
+.contenedores{
+    padding-top: 1%;
+    padding-bottom: 5%;
+} 
+
+.contenedorQmv{
+    background-color: whitesmoke;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+
+    margin-top: 7%;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.container1-text{
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    width: 40%;
+    height: 100%;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-weight: bold;
+    float: left;
+}
+
+.container1-text h2{
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container1-text p{
+    font-family: 'Inter', sans-serif;
+    line-height: 30px;
+}
+
+
+.imagen-vino{
+    width: 1%;
+    padding: 1%;
+    padding-left: 35%;
+    margin: 15px;
+}
+
+.imagen-vino img{
+    height: 35%;
+    border-radius: 15px;
+}
+
+.textoContainers{
+    font-size: 18px;
+}
